@@ -52,3 +52,5 @@ To play the HTTP M-JPEG stream with mplayer:
 It might be necessary to configure mplayer to prefer IPv4 instead of IPv6
 # vi ~./mplayer/config
 add or change the option: prefer-ipv4=yes
+Some camera controllers donot support MPEG decoding.. So, here is the YUV option.. Just use -y parameter.
+Abin
